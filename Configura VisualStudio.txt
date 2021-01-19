@@ -1,0 +1,15 @@
+c++ - General
+$(SolutionDir)/ExternalLibraries/GLEW/include
+$(SolutionDir)/ExternalLibraries/GLFW/include
+$(SolutionDir)/ExternalLibraries/glm
+$(SolutionDir)/ExternalLibraries/assimp/include
+
+Linker - General
+$(SolutionDir)/ExternalLibraries/GLEW/lib/Release/Win32
+$(SolutionDir)/ExternalLibraries/GLFW/lib-vc2015
+$(SolutionDir)/ExternalLibraries/SOIL2/lib
+$(SolutionDir)/ExternalLibraries/glm
+$(SolutionDir)/ExternalLibraries/assimp/lib
+
+Linker - Entrada
+assimp-vc140-mt.lib;opengl32.lib;glew32.lib;glfw3.lib;soil2-debug.lib;
